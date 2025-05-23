@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aのプロフィール</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --background-color: #ecf0f1;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact-info {
+            font-style: italic;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3, .education-item h3 {
+            color: var(--secondary-color);
+            margin-bottom: 5px;
+        }
+
+        .date {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aのプロフィール</h1>
+            <p class="contact-info">電話: 123-456-7890 | メール: <a href="mailto:ske.r.6741@gmail.com"target="_top">ske.r.6741@gmail.com</a></color:black></p>
+        </header>
+
+        <section class="summary">
+            <h2>自己紹介</h2>
+            <p>日本に暮らしている中国人です。</p>
+        </section>
+
+        <section class="experience">
+            <h2>職歴</h2>
+            <div class="experience-item">
+                <h3>職種 - 会社名</h3>
+                <p class="date">2024年4月 ~ 2025年3月</p>
+                <ul>
+                    <li>何をやってた</li>
+                    <li>何が出来た</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>職種 - 会社名</h3>
+                <p class="date">2025年4月 ~ 2026年3月</p>
+                <ul>
+                    <li>何をやってた</li>
+                    <li>何が出来た</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>学歴</h2>
+            <div class="education-item">
+                <h3>修士（体育学） - 大阪体育大学</h3>
+                <p class="date">2024年3月</p>
+                <ul>
+                    <li>スポーツマネジメント</li>
+                    <li>日本生涯スポーツ学会大会　口頭発表</li>
+                    <li>ヨーロッパスポーツマネジメント学会大会　口頭発表</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>スキル・趣味</h2>
+            <table border="1" cellspacing="0" cellpadding="8" style="width: 100%; border-collapse: collapse;">
+                <thead style="background-color: #3498db; color: white;">
+                    <tr>
+                        <th>カテゴリ</th>
+                        <th>内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>スポーツ</td>
+                        <td>長距離走、剣道</td>
+                    </tr>
+                    <tr>
+                        <td>デザイン</td>
+                        <td>Photoshop、Illustrator、InDesign</td>
+                    </tr>
+                    <tr>
+                        <td>プログラミング</td>
+                        <td>HTML・CSS・JavaScript（学習中）</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="portfolio">
+            <h2>🖼️ポートフォリオ</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <div style="flex: 1 1 45%; background-color: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+                    <h3>万博新規求人駅広告<br>＠大阪メトロ御堂筋線 梅田駅</h3>
+                    <img src="AED2100.png" alt="駅広告" style="width: 100%; border-radius: 4px;">
+                    <p><b>企画背景：</b>万博での新規事業に伴う採用需要の増加に対応し、企業の認知度を高めるため。</p>
+                    <p><b>デザインのポイント：</b>高時給の仕事を探している人をターゲットにして、待遇を強調する。地下鉄の照明や会社の制服の色との相性を考えて、背景に黄色を使用。</p>
+                    <p><b>結果：</b>新規採用約400人の獲得に貢献。</p>
+                    <p><b>制作ツール:</b> Adobe Photoshop、Illustrator</p>
+                    <a href="https://drive.google.com/drive/folders/1DqguQrko5AVgEVRHxMbnPEy1CmV57zjr" target="_blank">▶ Google drive</a>
+                </div>
+                <div style="flex: 1 1 45%; background-color: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+                    
+                    <h3>2025年度<br>高校新卒採用パンフレット</h3>
+                    <img src="パンフレット.png" alt="パンフレット" style="width: 100%; border-radius: 4px;">
+                    <p><b>企画背景：</b>新卒採用需要の増加に対応し、警備会社への信頼・親しみを創出。</p>
+                    <p><b>デザインのポイント：</b>ポップなデザインスタイルで、明るい色を基調に構成。</p>
+                    <p><b>結果：</b>高校生に対して「説明しやすい」と採用担当者から高評価を得ている。</p>
+                    <a href="https://drive.google.com/file/d/1od-jiJXlitTQz6CgOhnv6FcPDUNSaBNo/view?usp=drive_link" target="_blank">▶ Google drive</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <h2>🖼️ポートフォリオ</h2>
+            
+            <div style="display: flex; flex-direction: column; gap: 30px;">
+                <!-- 第一个作品 -->
+                <div style="display: flex; gap: 20px; background-color: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+                    <div style="flex: 1;">
+                        <img src="AED2100.png" alt="駅広告" style="width: 100%; height: auto; border-radius: 4px; object-fit: cover;">
+                    </div>
+                    <div style="flex: 1; padding: 0 10px;">
+                        <h3><br>万博新規求人駅広告<br>＠大阪メトロ御堂筋線 梅田駅</h3><br>
+                        <p><b>企画背景：</b>万博での新規事業に伴う採用需要の増加に対応し、企業の認知度を高めるため。</p>
+                        <p><b>デザインのポイント：</b>高時給の仕事を探している人をターゲットにして、待遇を強調する。地下鉄の照明や会社の制服の色との相性を考えて、背景に黄色を使用。</p>
+                        <p><b>結果：</b>新規採用約400人の獲得に貢献。</p>
+                        <p><b>制作ツール:</b> Adobe Photoshop、Illustrator</p>
+                        <a href="https://drive.google.com/drive/folders/1DqguQrko5AVgEVRHxMbnPEy1CmV57zjr" target="_blank">▶ Google drive</a>
+                    </div>
+                </div>
+                
+                <!-- 第二个作品 -->
+                <div style="display: flex; gap: 20px; background-color: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+                    <div style="flex: 1;">
+                        <img src="パンフレット.png" alt="パンフレット" style="width: 100%; height: auto; border-radius: 4px; object-fit: cover;">
+                    </div>
+                    <div style="flex: 1; padding: 0 10px;">
+                        <h3><br>2025年度<br>高校新卒採用パンフレット</h3><br>
+                        <p><b>企画背景：</b>新卒採用需要の増加に対応し、警備会社への信頼・親しみを創出。</p>
+                        <p><b>デザインのポイント：</b>ポップなデザインスタイルで、明るい色を基調に構成。</p>
+                        <p><b>結果：</b>高校生に対して「説明しやすい」と採用担当者から高評価を得ている。</p>
+                        <a href="https://drive.google.com/file/d/1od-jiJXlitTQz6CgOhnv6FcPDUNSaBNo/view?usp=drive_link" target="_blank">▶ Google drive</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+</html>
